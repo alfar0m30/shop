@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyl Butik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vinyl Butik</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Produkter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <div class="product-list">
+
+        <div class="product" data-name="Placeholder" data-price="499">
+          <img src="/images/placeholder.webp" alt="Produkt 1">
+          <h3>Placeholder</h3>
+          <p>Pris: 999 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="The Launch" data-price="299">
+          <img src="/images/TheLaunch.webp" alt="Produkt 2">
+          <h3>DJ Jean - The Launch (Singel)</h3>
+          <p>Pris: 299 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Rust Soundtrack" data-price="599">
+          <img src="/images/Rust.webp" alt="Produkt 3">
+          <h3>Alex Rehberg - Rust (Game Soundtrack), Volume 1</h3>
+          <p>Pris: 599 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Placeholder" data-price="250">
+          <img src="images/placeholder.webp" alt="Produkt 4">
+          <h3>Placeholder</h3>
+          <p>Pris: 250 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Placeholder" data-price="300">
+          <img src="/images/placeholder.webp" alt="Produkt 5">
+          <h3>Placeholder</h3>
+          <p>Pris: 300 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Placeholder" data-price="350">
+          <img src="/images/placeholder.webp" alt="Produkt 6">
+          <h3>Placeholder</h3>
+          <p>Pris: 350 kr</p>
+          <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Placeholder" data-price="200">
+            <img src="/images/placeholder.webp" alt="Produkt 7">
+            <h3>Placeholder</h3>
+            <p>Pris: 200 kr</p>
+            <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+
+        <div class="product" data-name="Placeholder" data-price="200">
+            <img src="/images/placeholder.webp" alt="Produkt 8">
+            <h3>Placeholder</h3>
+            <p>Pris: 200 kr</p>
+            <button class="add-to-cart">Lägg i varukorgen</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="cart">
+      <h2>Varukorg</h2>
+      <ul id="cart-items">
+      </ul>
+      <p id="total">Totalt: 0 kr</p>
+      <button id="checkout">Gå till kassan</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
