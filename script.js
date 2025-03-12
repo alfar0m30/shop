@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cartList = document.getElementById("cart-items");
     const totalDisplay = document.getElementById("total");
 
+
     const saveCart = () => {
         localStorage.setItem("cart", JSON.stringify(cartItems));
     };
@@ -80,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 500);
         }
     };
-    
 
+    
     
     
     const addToCartButtons = document.querySelectorAll(".add-to-cart");
